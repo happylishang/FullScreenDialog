@@ -1,4 +1,4 @@
-package com.snail.labaffinity.activity;
+package com.snail.fullscreen.activity;
 
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
@@ -10,7 +10,7 @@ import android.view.ViewGroup;
 import android.view.Window;
 import android.view.WindowManager;
 
-import com.snail.labaffinity.R;
+import com.snail.fullscreen.R;
 
 /**
  * Author: hzlishang

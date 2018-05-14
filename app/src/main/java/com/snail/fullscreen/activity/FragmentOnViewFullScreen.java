@@ -1,4 +1,4 @@
-package com.snail.labaffinity.activity;
+package com.snail.fullscreen.activity;
 
 import android.animation.Animator;
 import android.animation.AnimatorSet;
@@ -18,7 +18,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewTreeObserver;
 
-import com.snail.labaffinity.R;
+import com.snail.fullscreen.R;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;
@@ -42,12 +42,6 @@ public class FragmentOnViewFullScreen extends DialogFragment {
     @Override
     public Dialog onCreateDialog(Bundle savedInstanceState) {
         Dialog dialog = super.onCreateDialog(savedInstanceState);
-        dialog.setOnShowListener(new DialogInterface.OnShowListener() {
-            @Override
-            public void onShow(DialogInterface dialogInterface) {
-                Log.v("lishang", "onShow");
-            }
-        });
         //  时机问题 有些是可以动态调整，有些不行。
 //        dialog.getWindow().getAttributes().windowAnimations = R.style.animat1;
 //        dialog.getWindow().getAttributes().windowAnimations = R.style.animat1;

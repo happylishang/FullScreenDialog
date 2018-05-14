@@ -1,4 +1,4 @@
-package com.snail.labaffinity;
+package com.snail.fullscreen;
 
 import org.junit.Test;
 

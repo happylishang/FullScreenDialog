@@ -1,4 +1,4 @@
-package com.snail.labaffinity.activity;
+package com.snail.fullscreen.activity;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -9,7 +9,7 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 
-import com.snail.labaffinity.R;
+import com.snail.fullscreen.R;
 
 /**
  * Author: hzlishang

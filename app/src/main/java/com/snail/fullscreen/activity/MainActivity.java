@@ -1,7 +1,6 @@
-package com.snail.labaffinity.activity;
+package com.snail.fullscreen.activity;
 
 import android.content.Intent;
-import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
@@ -9,8 +8,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.snail.labaffinity.R;
-import com.snail.labaffinity.service.BackGroundService;
+import com.snail.fullscreen.R;
+import com.snail.fullscreen.service.BackGroundService;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;
@@ -65,14 +64,13 @@ public class MainActivity extends AppCompatActivity {
 
     @OnClick(R.id.alertdialog)
     void alertdialog() {
-//        FullScreenDialog dialog = new FullScreenDialog(getApplication());
-        FullScreenDialog dialog = new FullScreenDialog(this);
+        ThemeFullScreenFitSystemWindowAlertDialog dialog = new ThemeFullScreenFitSystemWindowAlertDialog(this);
         dialog.show();
     }
 
-    @OnClick(R.id.floationg)
-    void floationg() {
-        FloationgFalseDialog dialog = new FloationgFalseDialog(this);
+    @OnClick(R.id.full_immerse)
+    void full_immerse() {
+        ThemeFullScreenFitSystemWindowDialog dialog = new ThemeFullScreenFitSystemWindowDialog(this);
         dialog.show();
     }
 }

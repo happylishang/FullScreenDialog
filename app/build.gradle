@@ -12,7 +12,7 @@ android {
     buildToolsVersion "23.0.3"
 
     defaultConfig {
-        applicationId "com.snail.labaffinity"
+        applicationId "com.snail.fullscreen"
         minSdkVersion 16
         targetSdkVersion 22
         versionCode 1

@@ -1,4 +1,4 @@
-package com.snail.labaffinity.activity;
+package com.snail.fullscreen.activity;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -6,21 +6,21 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 
-import com.snail.labaffinity.R;
+import com.snail.fullscreen.R;
 
 /**
  * Author: hzlishang
  * Data: 16/10/8 下午4:11
- * Des:
+ * Des: 全屏沉浸式Dialog
  * version:
  */
-public class FloationgFalseDialog extends Dialog {
-    public FloationgFalseDialog(Context context) {
-        this(context, R.style.dialog_fragment_full_screen);
+public class ThemeFullScreenFitSystemWindowDialog extends Dialog {
+    public ThemeFullScreenFitSystemWindowDialog(Context context) {
+        this(context, R.style.dialog_fragment_full_screen_immerse);
     }
 
-    public FloationgFalseDialog(Context context, int themeResId) {
-        super(context, R.style.dialog_fragment_full_screen);
+    public ThemeFullScreenFitSystemWindowDialog(Context context, int themeResId) {
+        super(context, themeResId);
     }
 
     @Override
@@ -30,21 +30,9 @@ public class FloationgFalseDialog extends Dialog {
         // 其实这里都是View的布局参数，而不是 WindowManager.LayoutParams
         View view = LayoutInflater.from(getContext()).inflate(R.layout.fragment_full_screen, null);
         setContentView(view);
-//        getWindow().setLayout(WindowManager.LayoutParams.MATCH_PARENT, WindowManager.LayoutParams.MATCH_PARENT);
-//        getWindow().setBackgroundDrawable(new ColorDrawable(0x00000000));
-
-        view.findViewById(R.id.button).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                text.setVisibility(View.VISIBLE);
-            }
-        });
-        text = view.findViewById(R.id.test_are);
     }
 
-    private View text;
-
-
+    //    沉浸式设置
     @Override
     public void show() {
         if (getWindow() != null && getWindow().getDecorView() != null) {
