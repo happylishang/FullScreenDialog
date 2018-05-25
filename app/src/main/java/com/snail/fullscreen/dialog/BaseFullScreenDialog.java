@@ -1,4 +1,4 @@
-package com.snail.fullscreen.activity;
+package com.snail.fullscreen.dialog;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -14,11 +14,11 @@ import com.snail.fullscreen.R;
 /**
  * Author: hzlishang
  * Data: 16/10/8 下午4:11
- * Des:
+ * Des: 纯代码基类全屏对话框（非沉浸式）
  * version:
  */
-public class FullScreenDialog extends Dialog {
-    public FullScreenDialog(Context context) {
+public class BaseFullScreenDialog extends Dialog {
+    public BaseFullScreenDialog(Context context) {
         super(context);
         getWindow().requestFeature(Window.FEATURE_NO_TITLE);
     }
@@ -26,15 +26,16 @@ public class FullScreenDialog extends Dialog {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-        View view = LayoutInflater.from(getContext()).inflate(R.layout.fragment_full_screen, null);
+        View view = LayoutInflater.from(getContext()).inflate(R.layout.dialog_full_screen, null);
         setContentView(view);
-         }
+    }
 
     @Override
     protected void onStart() {
-        getWindow().setBackgroundDrawable(new ColorDrawable(0x00000000));
-        getWindow().setLayout(WindowManager.LayoutParams.MATCH_PARENT, WindowManager.LayoutParams.MATCH_PARENT);
+        if (getWindow() != null) {
+            getWindow().setBackgroundDrawable(new ColorDrawable(0x00000000));
+            getWindow().setLayout(WindowManager.LayoutParams.MATCH_PARENT, WindowManager.LayoutParams.MATCH_PARENT);
+        }
     }
 }
 

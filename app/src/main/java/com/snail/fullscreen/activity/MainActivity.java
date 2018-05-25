@@ -5,10 +5,15 @@ import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
 import com.snail.fullscreen.R;
+import com.snail.fullscreen.dialog.BaseFullScreenDialog;
+import com.snail.fullscreen.dialog.BaseFullScreenImmerseDialog;
+import com.snail.fullscreen.dialog.BaseThemeFullScreenImmerseDialog;
+import com.snail.fullscreen.dialog.ThemeFullScreenFitSystemWindowAlertDialog;
 import com.snail.fullscreen.service.BackGroundService;
 
 import butterknife.ButterKnife;
@@ -54,13 +59,6 @@ public class MainActivity extends AppCompatActivity {
         fullScreen.show(getSupportFragmentManager(), "");
     }
 
-    @OnClick(R.id.windattr)
-    void windattr() {
-        int width = ViewGroup.LayoutParams.WRAP_CONTENT;
-        int height = ViewGroup.LayoutParams.WRAP_CONTENT;
-//        getWindow().setLayout(width, height);
-//        getWindow().setBackgroundDrawable(new ColorDrawable(0x00000000));
-    }
 
     @OnClick(R.id.alertdialog)
     void alertdialog() {
@@ -70,7 +68,22 @@ public class MainActivity extends AppCompatActivity {
 
     @OnClick(R.id.full_immerse)
     void full_immerse() {
-        ThemeFullScreenFitSystemWindowDialog dialog = new ThemeFullScreenFitSystemWindowDialog(this);
+        BaseThemeFullScreenImmerseDialog dialog = new BaseThemeFullScreenImmerseDialog(this);
+        dialog.setContentView(LayoutInflater.from(this).inflate(R.layout.dialog_full_screen, null));
         dialog.show();
     }
+
+    @OnClick(R.id.code_full_immerse)
+    void code_full_immerse() {
+        BaseFullScreenImmerseDialog dialog = new BaseFullScreenImmerseDialog(this);
+        dialog.setContentView(LayoutInflater.from(this).inflate(R.layout.dialog_full_screen, null));
+        dialog.show();
+    }
+
+    @OnClick(R.id.code_full_)
+    void code_full_() {
+        BaseFullScreenDialog dialog = new BaseFullScreenDialog(this);
+        dialog.show();
+    }
+
 }

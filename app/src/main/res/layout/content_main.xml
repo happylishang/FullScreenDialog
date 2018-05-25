@@ -30,11 +30,6 @@
                 android:layout_height="60dp"
                 android:text="second" />
 
-            <Button
-                android:id="@+id/windattr"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="windattr" />
 
             <Button
                 android:id="@+id/alertdialog"
@@ -46,7 +41,17 @@
                 android:id="@+id/full_immerse"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="全屏沉浸式Dialog" />
+                android:text="Theme全屏沉浸式Dialog" />
+            <Button
+                android:id="@+id/code_full_immerse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="纯代码基类全屏 沉浸式对话框" />
+            <Button
+                android:id="@+id/code_full_"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="纯代码基类全屏对话框" />
         </LinearLayout>
     </ScrollView>
 
