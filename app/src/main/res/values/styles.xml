@@ -18,31 +18,19 @@
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
 
 
-    <style name="animat" parent="Animation.AppCompat.Dialog">
-        <item name="android:windowEnterAnimation">@anim/anim_fade_in</item>
-        <item name="android:windowExitAnimation">@anim/activity_slide_left_out</item>
-    </style>
-
-    <style name="animat1" parent="Animation.AppCompat.Dialog">
-        <item name="android:windowEnterAnimation">@null</item>
-        <item name="android:windowExitAnimation">@anim/anim_fade_out</item>
-    </style>
-
-
-    <style name="Dialog.FullScreen" parent="Theme.AppCompat.Dialog">
+    <!--全屏theme-->
+    <style name="dialog.full.screen" parent="Theme.AppCompat.Dialog">
         <item name="windowNoTitle">true</item>
         <item name="android:windowBackground">@color/transparent</item>
         <item name="android:windowIsFloating">false</item>
-        <item name="android:windowAnimationStyle">@null</item>
         <item name="android:backgroundDimEnabled">true</item>
     </style>
 
-    <style name="dialog_fragment_full_screen_immerse" parent="Theme.AppCompat.Dialog">
+    <!--沉浸式全屏theme-->
+    <style name="dialog_immerse_full_screen" parent="Theme.AppCompat.Dialog">
         <item name="android:windowIsFloating">false</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowBackground">@color/transparent</item>
-        <item name="android:windowEnterAnimation">@anim/anim_fade_in</item>
-        <item name="android:windowExitAnimation">@anim/anim_fade_out</item>
         <item name="android:backgroundDimEnabled">true</item>
     </style>
 
@@ -51,8 +39,6 @@
         <item name="android:windowIsFloating">true</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowBackground">@color/transparent</item>
-        <item name="android:windowEnterAnimation">@anim/anim_fade_in</item>
-        <item name="android:windowExitAnimation">@anim/anim_fade_out</item>
         <item name="android:backgroundDimEnabled">true</item>
     </style>
 

@@ -1,6 +1,5 @@
 package com.snail.fullscreen.dialog;
 
-import android.app.Dialog;
 import android.content.Context;
 import android.view.View;
 
@@ -12,17 +11,17 @@ import com.snail.fullscreen.R;
  * Des: Theme基类全屏 沉浸式对话框
  * version:
  */
-public class BaseThemeFullScreenImmerseDialog extends Dialog {
+public class BaseThemeFullScreenImmerseDialog extends BaseThemeFullScreenDialog {
 
     public BaseThemeFullScreenImmerseDialog(Context context) {
-        this(context, R.style.dialog_fragment_full_screen_immerse);
+        this(context, R.style.dialog_immerse_full_screen);
     }
 
     public BaseThemeFullScreenImmerseDialog(Context context, int themeResId) {
         super(context, themeResId);
     }
 
-    //    沉浸式设置
+    //  沉浸式设置
     @Override
     public void show() {
         if (getWindow() != null && getWindow().getDecorView() != null) {

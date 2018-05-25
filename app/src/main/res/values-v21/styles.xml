@@ -7,22 +7,19 @@
         <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
 
-    <style name="Dialog.FullScreen" parent="Theme.AppCompat.Dialog">
+    <style name="dialog.full.screen" parent="Theme.AppCompat.Dialog">
         <item name="windowNoTitle">true</item>
         <item name="android:windowBackground">@color/transparent</item>
         <item name="android:windowIsFloating">false</item>
-        <item name="android:windowAnimationStyle">@null</item>
         <item name="android:backgroundDimEnabled">true</item>
         <item name="android:statusBarColor">@color/transparent</item>
     </style>
 
-    <style name="dialog_fragment_full_screen_immerse" parent="Theme.AppCompat.Dialog">
+    <style name="dialog_immerse_full_screen" parent="Theme.AppCompat.Dialog">
         <item name="android:windowIsFloating">false</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowBackground">@color/transparent</item>
         <item name="android:backgroundDimEnabled">true</item>
-        <item name="android:windowEnterAnimation">@anim/anim_fade_in</item>
-        <item name="android:windowExitAnimation">@anim/anim_fade_out</item>
         <item name="android:statusBarColor">@color/transparent</item>
     </style>
 
@@ -30,8 +27,6 @@
         <item name="android:windowIsFloating">true</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowBackground">@color/transparent</item>
-        <item name="android:windowEnterAnimation">@anim/anim_fade_in</item>
-        <item name="android:windowExitAnimation">@anim/anim_fade_out</item>
         <item name="android:backgroundDimEnabled">true</item>
     </style>
 

@@ -19,39 +19,41 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/first"
+                android:id="@+id/code_full_dialog_fragment"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="First" />
+                android:text="纯代码全屏DialogFragment" />
 
             <Button
-                android:id="@+id/second"
+                android:id="@+id/code_full_immerse_dialog_fragment"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:text="second" />
+                android:text="纯代码全屏沉浸式DialogFragment" />
 
-
-            <Button
-                android:id="@+id/alertdialog"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="全屏沉浸式AlertDialog" />
 
             <Button
                 android:id="@+id/full_immerse"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Theme全屏沉浸式Dialog" />
+
             <Button
                 android:id="@+id/code_full_immerse"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="纯代码基类全屏 沉浸式对话框" />
+
             <Button
                 android:id="@+id/code_full_"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="纯代码基类全屏对话框" />
+
+            <Button
+                android:id="@+id/alertdialog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="全屏沉浸式AlertDialog" />
         </LinearLayout>
     </ScrollView>
 

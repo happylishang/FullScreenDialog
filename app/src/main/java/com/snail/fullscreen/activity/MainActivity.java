@@ -7,11 +7,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 
 import com.snail.fullscreen.R;
 import com.snail.fullscreen.dialog.BaseFullScreenDialog;
+import com.snail.fullscreen.dialog.BaseFullScreenDialogFragment;
 import com.snail.fullscreen.dialog.BaseFullScreenImmerseDialog;
+import com.snail.fullscreen.dialog.BaseImmerseFullScreenDialogFragment;
 import com.snail.fullscreen.dialog.BaseThemeFullScreenImmerseDialog;
 import com.snail.fullscreen.dialog.ThemeFullScreenFitSystemWindowAlertDialog;
 import com.snail.fullscreen.service.BackGroundService;
@@ -45,17 +46,17 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    @OnClick(R.id.first)
-    void first() {
+    @OnClick(R.id.code_full_dialog_fragment)
+    void code_full_dialog_fragment() {
 
-        FragmentFullScreen fullScreen = new FragmentFullScreen();
+        BaseFullScreenDialogFragment fullScreen = new BaseFullScreenDialogFragment();
         fullScreen.show(getSupportFragmentManager(), "");
     }
 
-    @OnClick(R.id.second)
-    void second() {
+    @OnClick(R.id.code_full_immerse_dialog_fragment)
+    void code_full_immerse_dialog_fragment() {
 
-        FragmentOnViewFullScreen fullScreen = new FragmentOnViewFullScreen();
+        android.support.v4.app.DialogFragment fullScreen = new BaseImmerseFullScreenDialogFragment();
         fullScreen.show(getSupportFragmentManager(), "");
     }
 

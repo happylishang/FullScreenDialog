@@ -1,7 +1,6 @@
-package com.snail.fullscreen.activity;
+package com.snail.fullscreen.dialog;
 
 import android.graphics.drawable.ColorDrawable;
-import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.DialogFragment;
@@ -16,16 +15,11 @@ import com.snail.fullscreen.R;
 /**
  * Author: hzlishang
  * Data: 16/9/27 下午10:36
- * Des:
+ * Des: 全屏DialogFragment
  * version:
  */
-public class FragmentFullScreen extends DialogFragment {
+public class BaseFullScreenDialogFragment extends DialogFragment {
 
-    @Nullable
-    @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.dialog_full_screen, container, false);
-    }
 
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
@@ -36,11 +30,9 @@ public class FragmentFullScreen extends DialogFragment {
         getDialog().getWindow().setDimAmount(0f);
     }
 
+    @Nullable
     @Override
-    public void onStart() {
-        super.onStart();
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            getDialog().getWindow().setStatusBarColor(0xffff0000);
-        }
+    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        return inflater.inflate(R.layout.dialog_full_screen, null);
     }
 }
