@@ -11,13 +11,13 @@ import com.snail.fullscreen.R;
  * Des: Theme基类全屏 沉浸式对话框
  * version:
  */
-public class BaseThemeFullScreenImmerseDialog extends BaseThemeFullScreenDialog {
+public class BaseThemeImmerseFullScreenDialog extends BaseThemeFullScreenDialog {
 
-    public BaseThemeFullScreenImmerseDialog(Context context) {
+    public BaseThemeImmerseFullScreenDialog(Context context) {
         this(context, R.style.dialog_immerse_full_screen);
     }
 
-    public BaseThemeFullScreenImmerseDialog(Context context, int themeResId) {
+    public BaseThemeImmerseFullScreenDialog(Context context, int themeResId) {
         super(context, themeResId);
     }
 

@@ -7,13 +7,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.WindowManager;
 
 import com.snail.fullscreen.R;
 import com.snail.fullscreen.dialog.BaseFullScreenDialog;
 import com.snail.fullscreen.dialog.BaseFullScreenDialogFragment;
 import com.snail.fullscreen.dialog.BaseFullScreenImmerseDialog;
 import com.snail.fullscreen.dialog.BaseImmerseFullScreenDialogFragment;
-import com.snail.fullscreen.dialog.BaseThemeFullScreenImmerseDialog;
+import com.snail.fullscreen.dialog.BaseThemeImmerseFullScreenDialog;
 import com.snail.fullscreen.dialog.ThemeFullScreenFitSystemWindowAlertDialog;
 import com.snail.fullscreen.service.BackGroundService;
 
@@ -24,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
 
     }
@@ -32,13 +34,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
         setContentView(R.layout.activity_main);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
         ButterKnife.bind(this);
-        Intent intent = new Intent(MainActivity.this, BackGroundService.class);
-        startService(intent);
-
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+       FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -69,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
 
     @OnClick(R.id.full_immerse)
     void full_immerse() {
-        BaseThemeFullScreenImmerseDialog dialog = new BaseThemeFullScreenImmerseDialog(this);
+        BaseThemeImmerseFullScreenDialog dialog = new BaseThemeImmerseFullScreenDialog(this);
         dialog.setContentView(LayoutInflater.from(this).inflate(R.layout.dialog_full_screen, null));
         dialog.show();
     }
@@ -87,4 +84,10 @@ public class MainActivity extends AppCompatActivity {
         dialog.show();
     }
 
+    @Override
+    protected void onStart() {
+        super.onStart();
+        getWindow().addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+        getWindow().setStatusBarColor(0xff0000);
+    }
 }
