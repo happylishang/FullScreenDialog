@@ -12,9 +12,9 @@ import android.view.WindowManager;
  * Des: 纯代码基类全屏 沉浸式对话框
  * version:
  */
-public class BaseFullScreenImmerseDialog extends BaseFullScreenDialog {
+public class BaseImmerseFullScreenDialog extends BaseFullScreenDialog {
 
-    public BaseFullScreenImmerseDialog(Context context) {
+    public BaseImmerseFullScreenDialog(Context context) {
         super(context);
     }
 
