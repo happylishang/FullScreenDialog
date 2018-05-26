@@ -25,8 +25,8 @@ public class BaseImmerseFullScreenDialog extends BaseFullScreenDialog {
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
                 //这句比比添加 ，挺奇怪为啥？
                 getWindow().addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
-                //   设置颜色
-                getWindow().setStatusBarColor(0x00000000);
+//   设置颜色
+                getWindow().setStatusBarColor(0xff0000);
             }
             getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
                     | View.SYSTEM_UI_FLAG_LAYOUT_STABLE);

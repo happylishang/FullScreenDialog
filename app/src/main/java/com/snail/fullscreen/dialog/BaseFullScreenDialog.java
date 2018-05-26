@@ -35,6 +35,7 @@ public class BaseFullScreenDialog extends Dialog {
         if (getWindow() != null) {
             getWindow().setBackgroundDrawable(new ColorDrawable(0x00000000));
             getWindow().setLayout(WindowManager.LayoutParams.MATCH_PARENT, WindowManager.LayoutParams.MATCH_PARENT);
+
         }
     }
 }

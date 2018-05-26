@@ -1,10 +1,8 @@
 package com.snail.fullscreen.activity;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.WindowManager;
@@ -12,11 +10,10 @@ import android.view.WindowManager;
 import com.snail.fullscreen.R;
 import com.snail.fullscreen.dialog.BaseFullScreenDialog;
 import com.snail.fullscreen.dialog.BaseFullScreenDialogFragment;
-import com.snail.fullscreen.dialog.BaseFullScreenImmerseDialog;
+import com.snail.fullscreen.dialog.BaseImmerseFullScreenDialog;
 import com.snail.fullscreen.dialog.BaseImmerseFullScreenDialogFragment;
 import com.snail.fullscreen.dialog.BaseThemeImmerseFullScreenDialog;
 import com.snail.fullscreen.dialog.ThemeFullScreenFitSystemWindowAlertDialog;
-import com.snail.fullscreen.service.BackGroundService;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;
@@ -73,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
 
     @OnClick(R.id.code_full_immerse)
     void code_full_immerse() {
-        BaseFullScreenImmerseDialog dialog = new BaseFullScreenImmerseDialog(this);
+        BaseImmerseFullScreenDialog dialog = new BaseImmerseFullScreenDialog(this);
         dialog.setContentView(LayoutInflater.from(this).inflate(R.layout.dialog_full_screen, null));
         dialog.show();
     }
