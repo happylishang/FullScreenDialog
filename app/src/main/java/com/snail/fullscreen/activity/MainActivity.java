@@ -3,6 +3,7 @@ package com.snail.fullscreen.activity;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.WindowManager;
@@ -70,8 +71,19 @@ public class MainActivity extends AppCompatActivity {
     }
     @OnClick(R.id.BaseThemeFullScreenDialog)
     void BaseThemeFullScreenDialog() {
-        BaseThemeFullScreenDialog dialog = new BaseThemeFullScreenDialog(this);
-        dialog.setContentView(LayoutInflater.from(this).inflate(R.layout.dialog_full_screen, null));
+        View view;
+        final BaseThemeFullScreenDialog dialog = new BaseThemeFullScreenDialog(this);
+        dialog.setContentView(view =LayoutInflater.from(this).inflate(R.layout.dialog_full_screen, null));
+
+        view.findViewById(R.id.button).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Log.v("","v");
+                dialog.cancel();
+            }
+        });
+
         dialog.show();
     }
 
