@@ -27,7 +27,7 @@ public class BaseImmerseFullScreenDialog extends BaseFullScreenDialog {
                 //这句比比添加 ，挺奇怪为啥？
                 getWindow().addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
 //   设置颜色
-                getWindow().setStatusBarColor(0xffff0000);
+//                getWindow().setStatusBarColor(0xffff0000);
             }
 //            getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
 //                    | View.SYSTEM_UI_FLAG_LAYOUT_STABLE);

@@ -14,13 +14,17 @@ import com.snail.fullscreen.R;
 public class BaseThemeFullScreenDialog extends Dialog {
 
     public BaseThemeFullScreenDialog(Context context) {
-        this(context, R.style.dialog_immerse_full_screen);
+        this(context, R.style.dialog_full_screen);
     }
 
     public BaseThemeFullScreenDialog(Context context, int themeResId) {
         super(context, themeResId);
     }
 
-
+    @Override
+    protected void onStart() {
+        super.onStart();
+        getWindow().setStatusBarColor(0x00000000);
+    }
 }
 

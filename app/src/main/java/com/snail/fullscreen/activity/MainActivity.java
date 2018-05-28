@@ -12,6 +12,7 @@ import com.snail.fullscreen.dialog.BaseFullScreenDialog;
 import com.snail.fullscreen.dialog.BaseFullScreenDialogFragment;
 import com.snail.fullscreen.dialog.BaseImmerseFullScreenDialog;
 import com.snail.fullscreen.dialog.BaseImmerseFullScreenDialogFragment;
+import com.snail.fullscreen.dialog.BaseThemeFullScreenDialog;
 import com.snail.fullscreen.dialog.BaseThemeImmerseFullScreenDialog;
 import com.snail.fullscreen.dialog.ThemeFullScreenFitSystemWindowAlertDialog;
 
@@ -67,6 +68,13 @@ public class MainActivity extends AppCompatActivity {
         dialog.setContentView(LayoutInflater.from(this).inflate(R.layout.dialog_full_screen, null));
         dialog.show();
     }
+    @OnClick(R.id.BaseThemeFullScreenDialog)
+    void BaseThemeFullScreenDialog() {
+        BaseThemeFullScreenDialog dialog = new BaseThemeFullScreenDialog(this);
+        dialog.setContentView(LayoutInflater.from(this).inflate(R.layout.dialog_full_screen, null));
+        dialog.show();
+    }
+
 
     @OnClick(R.id.code_full_immerse)
     void code_full_immerse() {
@@ -81,10 +89,4 @@ public class MainActivity extends AppCompatActivity {
         dialog.show();
     }
 
-    @Override
-    protected void onStart() {
-        super.onStart();
-        getWindow().addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
-        getWindow().setStatusBarColor(0xff0000);
-    }
 }

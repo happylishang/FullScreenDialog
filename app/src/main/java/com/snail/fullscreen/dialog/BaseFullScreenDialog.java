@@ -4,6 +4,7 @@ import android.app.Dialog;
 import android.content.Context;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.Window;
@@ -28,6 +29,13 @@ public class BaseFullScreenDialog extends Dialog {
         super.onCreate(savedInstanceState);
         View view = LayoutInflater.from(getContext()).inflate(R.layout.dialog_full_screen, null);
         setContentView(view);
+
+        view.findViewById(R.id.button).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.v("","v");
+            }
+        });
     }
 
     @Override
@@ -35,7 +43,6 @@ public class BaseFullScreenDialog extends Dialog {
         if (getWindow() != null) {
             getWindow().setBackgroundDrawable(new ColorDrawable(0x00000000));
             getWindow().setLayout(WindowManager.LayoutParams.MATCH_PARENT, WindowManager.LayoutParams.MATCH_PARENT);
-
         }
     }
 }
