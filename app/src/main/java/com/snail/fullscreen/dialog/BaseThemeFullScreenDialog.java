@@ -21,10 +21,5 @@ public class BaseThemeFullScreenDialog extends Dialog {
         super(context, themeResId);
     }
 
-    @Override
-    protected void onStart() {
-        super.onStart();
-        getWindow().setStatusBarColor(0x00000000);
-    }
 }
 
