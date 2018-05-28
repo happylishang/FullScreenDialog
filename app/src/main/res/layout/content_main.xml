@@ -47,13 +47,13 @@
                 android:id="@+id/code_full_immerse"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="纯代码基类全屏 沉浸式对话框" />
+                android:text="纯代码基类全屏 (无法控制)沉浸式对话框" />
 
             <Button
                 android:id="@+id/code_full_"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="纯代码基类全屏对话框" />
+                android:text="纯代码基类全屏对话框(无法改状态栏颜色)" />
 
             <Button
                 android:id="@+id/alertdialog"
