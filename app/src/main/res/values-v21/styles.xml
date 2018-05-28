@@ -12,6 +12,7 @@
         <item name="android:windowBackground">@color/transparent</item>
         <item name="android:windowIsFloating">false</item>
         <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:statusBarColor">@color/transparent</item>
     </style>
     <!--沉浸式全屏theme-->
     <style name="dialog_immerse_full_screen" parent="Theme.AppCompat.Dialog">
@@ -27,7 +28,8 @@
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowBackground">@color/transparent</item>
         <item name="android:backgroundDimEnabled">true</item>
-        <item name="android:statusBarColor">@color/transparent</item>
+        <!--statusBarColor在windowIsFloating=true的时候，不会有任何效果 ，但是为什么AlertDialog是半透明的-->
+        <item name="android:statusBarColor">@color/colorAccent</item>
     </style>
 
 </resources>

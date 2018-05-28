@@ -17,7 +17,6 @@
       <change beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/snail/fullscreen/dialog/ThemeFullScreenFitSystemWindowAlertDialog.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/snail/fullscreen/dialog/ThemeFullScreenFitSystemWindowAlertDialog.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/dialog_full_screen.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_full_screen.xml" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values-v21/styles.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values-v21/styles.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,8 +43,8 @@
       <file leaf-file-name="BaseFullScreenDialog.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/snail/fullscreen/dialog/BaseFullScreenDialog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="47" column="2" lean-forward="false" selection-start-line="47" selection-start-column="2" selection-end-line="47" selection-end-column="116" />
+            <state relative-caret-position="471">
+              <caret line="45" column="5" lean-forward="false" selection-start-line="45" selection-start-column="5" selection-end-line="48" selection-end-column="9" />
               <folding>
                 <element signature="e#989#1325#0" expanded="true" />
                 <element signature="e#1324#1325#0" expanded="true" />
@@ -54,21 +53,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WindowManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-22/android/view/WindowManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="928" column="32" lean-forward="false" selection-start-line="928" selection-start-column="32" selection-end-line="928" selection-end-column="32" />
-              <folding />
-            </state>
+      <file leaf-file-name="com.snail.fullscreen_2018.05.28_20.48.li" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/captures/com.snail.fullscreen_2018.05.28_20.48.li">
+          <provider selected="true" editor-type-id="capture-editor">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dialog_full_screen.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dialog_full_screen.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/dialog_full_screen.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="590">
-              <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+            <state relative-caret-position="150">
+              <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -81,21 +77,8 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/snail/fullscreen/dialog/BaseImmerseFullScreenDialog.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="267">
-              <caret line="27" column="3" lean-forward="false" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="93" />
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="93" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Window.java" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-22/android/view/Window.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="770" column="13" lean-forward="false" selection-start-line="770" selection-start-column="13" selection-end-line="770" selection-end-column="13" />
-              <folding>
-                <element signature="e#29821#29822#0" expanded="true" />
-                <element signature="e#29859#29860#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -104,7 +87,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/snail/fullscreen/dialog/BaseThemeFullScreenDialog.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
-              <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+              <caret line="16" column="37" lean-forward="false" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -126,10 +109,17 @@
       <file leaf-file-name="ThemeFullScreenFitSystemWindowAlertDialog.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/snail/fullscreen/dialog/ThemeFullScreenFitSystemWindowAlertDialog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="24" column="74" lean-forward="false" selection-start-line="24" selection-start-column="74" selection-end-line="24" selection-end-column="74" />
+            <state relative-caret-position="478">
+              <caret line="39" column="88" lean-forward="false" selection-start-line="39" selection-start-column="88" selection-end-line="39" selection-end-column="88" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="com.snail.fullscreen_2018.05.28_20.50.li" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/captures/com.snail.fullscreen_2018.05.28_20.50.li">
+          <provider selected="true" editor-type-id="capture-editor">
+            <state />
           </provider>
         </entry>
       </file>
@@ -143,11 +133,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="styles.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/values-v21/styles.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="25" column="50" lean-forward="false" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+            <state relative-caret-position="363">
+              <caret line="17" column="77" lean-forward="true" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
               <folding />
             </state>
           </provider>
@@ -1913,11 +1903,11 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/snail/fullscreen/dialog/BaseThemeFullScreenDialog.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/snail/fullscreen/dialog/BaseImmerseFullScreenDialog.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/snail/fullscreen/dialog/BaseFullScreenDialog.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/snail/fullscreen/activity/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values-v21/styles.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/snail/fullscreen/dialog/ThemeFullScreenFitSystemWindowAlertDialog.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/dialog_full_screen.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/snail/fullscreen/dialog/BaseFullScreenDialog.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/snail/fullscreen/dialog/ThemeFullScreenFitSystemWindowAlertDialog.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values-v21/styles.xml" />
       </list>
     </option>
   </component>
@@ -2034,98 +2024,6 @@
               <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="build" type="462c0819:PsiDirectoryNode" />
               <item name="intermediates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FullScreenDialog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FullScreenDialog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="intermediates" type="462c0819:PsiDirectoryNode" />
-              <item name="exploded-aar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FullScreenDialog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FullScreenDialog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="intermediates" type="462c0819:PsiDirectoryNode" />
-              <item name="exploded-aar" type="462c0819:PsiDirectoryNode" />
-              <item name="com.android.support" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FullScreenDialog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FullScreenDialog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="intermediates" type="462c0819:PsiDirectoryNode" />
-              <item name="exploded-aar" type="462c0819:PsiDirectoryNode" />
-              <item name="com.android.support" type="462c0819:PsiDirectoryNode" />
-              <item name="appcompat-v7" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FullScreenDialog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FullScreenDialog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="intermediates" type="462c0819:PsiDirectoryNode" />
-              <item name="exploded-aar" type="462c0819:PsiDirectoryNode" />
-              <item name="com.android.support" type="462c0819:PsiDirectoryNode" />
-              <item name="appcompat-v7" type="462c0819:PsiDirectoryNode" />
-              <item name="22.2.1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FullScreenDialog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FullScreenDialog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="intermediates" type="462c0819:PsiDirectoryNode" />
-              <item name="exploded-aar" type="462c0819:PsiDirectoryNode" />
-              <item name="com.android.support" type="462c0819:PsiDirectoryNode" />
-              <item name="appcompat-v7" type="462c0819:PsiDirectoryNode" />
-              <item name="22.2.1" type="462c0819:PsiDirectoryNode" />
-              <item name="jars" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FullScreenDialog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FullScreenDialog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="intermediates" type="462c0819:PsiDirectoryNode" />
-              <item name="exploded-aar" type="462c0819:PsiDirectoryNode" />
-              <item name="com.android.support" type="462c0819:PsiDirectoryNode" />
-              <item name="appcompat-v7" type="462c0819:PsiDirectoryNode" />
-              <item name="22.2.1" type="462c0819:PsiDirectoryNode" />
-              <item name="jars" type="462c0819:PsiDirectoryNode" />
-              <item name="classes.jar" type="ab9368bb:PsiFileNode" />
-            </path>
-            <path>
-              <item name="FullScreenDialog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FullScreenDialog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="intermediates" type="462c0819:PsiDirectoryNode" />
-              <item name="exploded-aar" type="462c0819:PsiDirectoryNode" />
-              <item name="com.android.support" type="462c0819:PsiDirectoryNode" />
-              <item name="appcompat-v7" type="462c0819:PsiDirectoryNode" />
-              <item name="22.2.1" type="462c0819:PsiDirectoryNode" />
-              <item name="jars" type="462c0819:PsiDirectoryNode" />
-              <item name="classes.jar" type="ab9368bb:PsiFileNode" />
-              <item name="v7" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FullScreenDialog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FullScreenDialog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="intermediates" type="462c0819:PsiDirectoryNode" />
-              <item name="exploded-aar" type="462c0819:PsiDirectoryNode" />
-              <item name="com.android.support" type="462c0819:PsiDirectoryNode" />
-              <item name="appcompat-v7" type="462c0819:PsiDirectoryNode" />
-              <item name="22.2.1" type="462c0819:PsiDirectoryNode" />
-              <item name="jars" type="462c0819:PsiDirectoryNode" />
-              <item name="classes.jar" type="ab9368bb:PsiFileNode" />
-              <item name="v7" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FullScreenDialog" type="b2602c69:ProjectViewProjectNode" />
@@ -2548,7 +2446,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45866364" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3510759" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2559,7 +2457,7 @@
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19592299" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50962627" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2632,19 +2530,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/captures/com.snail.fullscreen_2018.05.26_10.55.li">
-      <provider selected="true" editor-type-id="capture-editor">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/snail/fullscreen/dialog/BaseFullScreenDialogFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/build/generated/source/apt/debug/com/snail/fullscreen/activity/MainActivity$$ViewBinder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="511">
@@ -2895,8 +2780,8 @@
         <state relative-caret-position="239">
           <caret line="770" column="13" lean-forward="false" selection-start-line="770" selection-start-column="13" selection-end-line="770" selection-end-column="13" />
           <folding>
-            <element signature="e#29821#29822#0" expanded="true" />
-            <element signature="e#29859#29860#0" expanded="true" />
+            <element signature="e#29821#29822#0" expanded="false" />
+            <element signature="e#29859#29860#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2920,22 +2805,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/snail/fullscreen/dialog/BaseImmerseFullScreenDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="27" column="3" lean-forward="false" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/snail/fullscreen/dialog/BaseThemeFullScreenDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/snail/fullscreen/dialog/BaseThemeImmerseFullScreenDialog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -2944,10 +2813,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/dialog_full_screen.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/captures/com.snail.fullscreen_2018.05.28_20.48.li">
+      <provider selected="true" editor-type-id="capture-editor">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/snail/fullscreen/dialog/BaseFullScreenDialog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="47" column="2" lean-forward="false" selection-start-line="47" selection-start-column="2" selection-end-line="47" selection-end-column="116" />
+        <state relative-caret-position="471">
+          <caret line="45" column="5" lean-forward="false" selection-start-line="45" selection-start-column="5" selection-end-line="48" selection-end-column="9" />
           <folding>
             <element signature="e#989#1325#0" expanded="true" />
             <element signature="e#1324#1325#0" expanded="true" />
@@ -2955,31 +2840,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-v21/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="25" column="50" lean-forward="false" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/captures/com.snail.fullscreen_2018.05.28_20.50.li">
+      <provider selected="true" editor-type-id="capture-editor">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/snail/fullscreen/dialog/ThemeFullScreenFitSystemWindowAlertDialog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="24" column="74" lean-forward="false" selection-start-line="24" selection-start-column="74" selection-end-line="24" selection-end-column="74" />
+        <state relative-caret-position="478">
+          <caret line="39" column="88" lean-forward="false" selection-start-line="39" selection-start-column="88" selection-end-line="39" selection-end-column="88" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/dialog_full_screen.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/snail/fullscreen/dialog/BaseImmerseFullScreenDialog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+        <state relative-caret-position="267">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="93" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/snail/fullscreen/dialog/BaseThemeFullScreenDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="16" column="37" lean-forward="false" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-v21/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="17" column="77" lean-forward="true" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
