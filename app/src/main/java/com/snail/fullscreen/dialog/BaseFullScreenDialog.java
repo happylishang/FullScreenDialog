@@ -2,6 +2,7 @@ package com.snail.fullscreen.dialog;
 
 import android.app.Dialog;
 import android.content.Context;
+import android.content.res.Resources;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.util.Log;
@@ -15,7 +16,7 @@ import com.snail.fullscreen.R;
 /**
  * Author: hzlishang
  * Data: 16/10/8 下午4:11
- * Des: 纯代码基类全屏对话框（非沉浸式）
+ * Des: 纯代码基类全屏对话框（非沉浸式）  无法修改状态栏颜色
  * version:
  */
 public class BaseFullScreenDialog extends Dialog {
@@ -33,6 +34,8 @@ public class BaseFullScreenDialog extends Dialog {
         view.findViewById(R.id.button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Resources resources=getContext().getResources();
+                int ret = getWindow().getAttributes().flags & WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS;
                 Log.v("","v");
             }
         });

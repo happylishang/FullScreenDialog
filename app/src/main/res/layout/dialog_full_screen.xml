@@ -6,14 +6,12 @@
     android:background="#ff00ffff"
     android:orientation="vertical">
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+
 
         <LinearLayout
             android:id="@+id/content"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:background="#ffffff"
             android:orientation="vertical">
 
@@ -44,17 +42,13 @@
                 android:layout_height="wrap_content"
                 android:text="1" />
 
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="1" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="1" />
 
-            <Button
+            <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="1" />
@@ -62,6 +56,6 @@
 
 
         </LinearLayout>
-    </ScrollView>
+
 
 </FrameLayout>

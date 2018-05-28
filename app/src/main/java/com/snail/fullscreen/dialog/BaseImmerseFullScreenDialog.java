@@ -24,11 +24,12 @@ public class BaseImmerseFullScreenDialog extends BaseFullScreenDialog {
     public void show() {
         if (getWindow() != null && getWindow().getDecorView() != null) {
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-                //这句比比添加 ，挺奇怪为啥？
-                getWindow().addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
-//   设置颜色
+         //这句比比添加 ，挺奇怪为啥？window的属性
+          getWindow().addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+        //   设置颜色无效，必须非悬浮窗口才能设置状态栏颜色
 //                getWindow().setStatusBarColor(0xffff0000);
             }
+//            用不用无所谓，why？
 //            getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
 //                    | View.SYSTEM_UI_FLAG_LAYOUT_STABLE);
         }
@@ -36,10 +37,3 @@ public class BaseImmerseFullScreenDialog extends BaseFullScreenDialog {
     }
 }
 
-//为什么必须设置FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS才行，因为不设置就一直是黑色
-//    public static int calculateStatusBarColor(int flags, int semiTransparentStatusBarColor,
-//                                              int statusBarColor) {
-//        return (flags & FLAG_TRANSLUCENT_STATUS) != 0 ? semiTransparentStatusBarColor
-//                : (flags & FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS) != 0 ? statusBarColor
-//                : Color.BLACK;
-//    }
