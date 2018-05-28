@@ -3,8 +3,10 @@ package com.snail.fullscreen.dialog;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.Context;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.WindowManager;
 
 import com.snail.fullscreen.R;
 
@@ -22,6 +24,7 @@ public class ThemeFullScreenFitSystemWindowAlertDialog {
         AlertDialog.Builder builder = new AlertDialog.Builder(context, R.style.alertdialog_fragment_full_screen_immerse);
         View view = LayoutInflater.from(context).inflate(R.layout.dialog_full_screen, null);
         builder.setView(view);
+
         dialog = builder.create();
     }
 
@@ -29,8 +32,10 @@ public class ThemeFullScreenFitSystemWindowAlertDialog {
     public void show() {
         dialog.show();
         if (dialog.getWindow() != null && dialog.getWindow().getDecorView() != null) {
-            dialog.getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
-                    | View.SYSTEM_UI_FLAG_LAYOUT_STABLE);
+//            dialog.getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
+//                    | View.SYSTEM_UI_FLAG_LAYOUT_STABLE);
+            dialog.getWindow().setGravity(Gravity.BOTTOM);
+            dialog.getWindow().setLayout(WindowManager.LayoutParams.MATCH_PARENT, WindowManager.LayoutParams.WRAP_CONTENT);
         }
     }
 }
