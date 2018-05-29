@@ -1,9 +1,11 @@
-package com.snail.fullscreen.dialog;
+package com.snail.fullscreen.dialog.wrapgravity;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.Context;
+import android.content.res.Resources;
 import android.graphics.drawable.ColorDrawable;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -17,13 +19,20 @@ import com.snail.fullscreen.R;
  * Des: 为什么AlertDialog 跟Dialog差别很大呢
  * version:
  */
-public class ThemeFullScreenFitSystemWindowAlertDialog {
+public class ThemeFloatingAlertDialog {
 
     private Dialog dialog;
 
-    public ThemeFullScreenFitSystemWindowAlertDialog(Context context) {
+    public ThemeFloatingAlertDialog(Context context) {
         AlertDialog.Builder builder = new AlertDialog.Builder(context, R.style.alertdialog_fragment_full_screen_immerse);
         View view = LayoutInflater.from(context).inflate(R.layout.dialog_full_screen, null);
+        view.findViewById(R.id.button).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                int ret = dialog.getWindow().getAttributes().flags & WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS;
+                Log.v("","v");
+            }
+        });
         builder.setView(view);
         dialog = builder.create();
     }
@@ -32,10 +41,6 @@ public class ThemeFullScreenFitSystemWindowAlertDialog {
     public void show() {
         dialog.show();
         if (dialog.getWindow() != null && dialog.getWindow().getDecorView() != null) {
-//            可以不改变floadting属性，通过gravity ，很简单控制Dialog属性，因为一般都是宽度有要求，高度没什么要求，灵活控制
-//            dialog.getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
-//                    | View.SYSTEM_UI_FLAG_LAYOUT_STABLE);
-//            dialog.getWindow().setBackgroundDrawable(new ColorDrawable(0x00000000));
             dialog.getWindow().setGravity(Gravity.BOTTOM);
             dialog.getWindow().setLayout(WindowManager.LayoutParams.MATCH_PARENT, WindowManager.LayoutParams.WRAP_CONTENT);
         }

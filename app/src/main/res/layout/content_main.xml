@@ -60,6 +60,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="全屏沉浸式AlertDialog" />
+
+            <Button
+                android:id="@+id/BaseWrapcontentDialog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="纯代码悬浮Dialog(Gravity)" />
+
+
         </LinearLayout>
     </ScrollView>
 
