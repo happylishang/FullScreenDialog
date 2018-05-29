@@ -41,7 +41,7 @@ public class ThemeFloatingAlertDialog {
     public void show() {
         dialog.show();
         if (dialog.getWindow() != null && dialog.getWindow().getDecorView() != null) {
-            dialog.getWindow().setGravity(Gravity.BOTTOM);
+            dialog.getWindow().setGravity(Gravity.TOP);
             dialog.getWindow().setLayout(WindowManager.LayoutParams.MATCH_PARENT, WindowManager.LayoutParams.WRAP_CONTENT);
         }
 

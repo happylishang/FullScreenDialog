@@ -59,7 +59,7 @@
                 android:id="@+id/alertdialog"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="全屏沉浸式AlertDialog" />
+                android:text="floating AlertDialog（无法灵活全屏）" />
 
             <Button
                 android:id="@+id/BaseWrapcontentDialog"
