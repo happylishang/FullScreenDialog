@@ -2,7 +2,7 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/lv"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:background="#ff00ffff"
     android:orientation="vertical">
 
@@ -10,7 +10,7 @@
         <LinearLayout
             android:id="@+id/content"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:background="#ffffff"
             android:orientation="vertical">
 
@@ -48,9 +48,12 @@
                 android:text="1" />
 
             <EditText
+
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="1" />
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:gravity="bottom"
+                android:text="12345" />
 
 
 
