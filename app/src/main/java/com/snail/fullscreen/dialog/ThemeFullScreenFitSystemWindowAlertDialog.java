@@ -37,8 +37,9 @@ public class ThemeFullScreenFitSystemWindowAlertDialog {
 //                    | View.SYSTEM_UI_FLAG_LAYOUT_STABLE);
 //            dialog.getWindow().setBackgroundDrawable(new ColorDrawable(0x00000000));
             dialog.getWindow().setGravity(Gravity.BOTTOM);
-            dialog.getWindow().setLayout(WindowManager.LayoutParams.MATCH_PARENT, WindowManager.LayoutParams.MATCH_PARENT);
+            dialog.getWindow().setLayout(WindowManager.LayoutParams.MATCH_PARENT, WindowManager.LayoutParams.WRAP_CONTENT);
         }
+
     }
 }
 
