@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/FullScreenDialog.iml" filepath="$PROJECT_DIR$/FullScreenDialog.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/immersedialog/immersedialog.iml" filepath="$PROJECT_DIR$/immersedialog/immersedialog.iml" />
     </modules>
   </component>
 </project>
