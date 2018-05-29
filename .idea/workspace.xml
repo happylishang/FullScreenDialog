@@ -11,24 +11,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ab13397-d9fc-451e-855f-a45b1256ca2d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/immersedialog/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/immersedialog/build.gradle" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/immersedialog/proguard-rules.pro" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/immersedialog/src/androidTest/java/com/snail/immersedialog/ExampleInstrumentedTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/immersedialog/src/main/AndroidManifest.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/immersedialog/src/main/res/values/strings.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/immersedialog/src/test/java/com/snail/immersedialog/ExampleUnitTest.java" />
-      <change beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/immersedialog/src/main/java/com/snail/immersedialog/BaseThemeFullScreenDialog.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/immersedialog/src/main/java/com/snail/immersedialog/BaseThemeFullScreenDialogFragment.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/immersedialog/src/main/java/com/snail/immersedialog/BaseThemeImmerseFullScreenDialog.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/immersedialog/src/main/java/com/snail/immersedialog/BaseThemeImmerseFullScreenDialogFragment.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/immersedialog/src/main/java/com/snail/immersedialog/BaseWrapContentDialog.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/immersedialog/src/main/res/values-v21/styles.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/immersedialog/src/main/res/values/colors.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/immersedialog/src/main/res/values/styles.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
+      <change beforePath="$PROJECT_DIR$/immersedialog/immersedialog.iml" afterPath="$PROJECT_DIR$/immersedialog/immersedialog.iml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -51,108 +43,100 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BaseFullScreenDialog.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/snail/fullscreen/dialog/BaseFullScreenDialog.java">
+      <file leaf-file-name="BaseThemeImmerseFullScreenDialogFragment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/immersedialog/src/main/java/com/snail/immersedialog/BaseThemeImmerseFullScreenDialogFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            <state relative-caret-position="286">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseFullScreenDialogFragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/snail/fullscreen/dialog/BaseFullScreenDialogFragment.java">
+      <file leaf-file-name="BaseWrapContentDialog.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/immersedialog/src/main/java/com/snail/immersedialog/BaseWrapContentDialog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="28" column="122" lean-forward="false" selection-start-line="28" selection-start-column="110" selection-end-line="28" selection-end-column="122" />
+            <state relative-caret-position="308">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/immersedialog/src/main/res/values-v21/styles.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseImmerseFullScreenDialogFragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/snail/fullscreen/dialog/BaseImmerseFullScreenDialogFragment.java">
+      <file leaf-file-name="styles.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/immersedialog/src/main/res/values/styles.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="34" column="48" lean-forward="false" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="colors.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="colors.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/immersedialog/src/main/res/values/colors.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="BaseThemeImmerseFullScreenDialog.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/snail/fullscreen/dialog/BaseThemeImmerseFullScreenDialog.java">
+        <entry file="file://$PROJECT_DIR$/immersedialog/src/main/java/com/snail/immersedialog/BaseThemeImmerseFullScreenDialog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="110">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <file leaf-file-name="BaseThemeFullScreenDialog.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/immersedialog/src/main/java/com/snail/immersedialog/BaseThemeFullScreenDialog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="20" column="67" lean-forward="false" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="77" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-manifest">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="110">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/immersedialog/build.gradle">
+      <file leaf-file-name="BaseThemeFullScreenDialogFragment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/immersedialog/src/main/java/com/snail/immersedialog/BaseThemeFullScreenDialogFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseImmerseFullScreenDialog.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/snail/fullscreen/dialog/BaseImmerseFullScreenDialog.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="32" column="100" lean-forward="false" selection-start-line="32" selection-start-column="68" selection-end-line="32" selection-end-column="100" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dialog_full_screen.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/dialog_full_screen.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="763">
-              <caret line="55" column="49" lean-forward="false" selection-start-line="55" selection-start-column="49" selection-end-line="55" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseWrapContentDialog.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/snail/fullscreen/dialog/wrapgravity/BaseWrapContentDialog.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="198">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -2917,6 +2901,12 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/snail/fullscreen/dialog/BaseFullScreenDialog.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/snail/fullscreen/dialog/BaseImmerseFullScreenDialogFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/dialog_full_screen.xml" />
+        <option value="$PROJECT_DIR$/immersedialog/src/main/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/immersedialog/src/main/java/com/snail/immersedialog/BaseThemeImmerseFullScreenDialogFragment.java" />
+        <option value="$PROJECT_DIR$/immersedialog/src/main/java/com/snail/immersedialog/BaseThemeImmerseFullScreenDialog.java" />
+        <option value="$PROJECT_DIR$/immersedialog/src/main/java/com/snail/immersedialog/BaseThemeFullScreenDialog.java" />
+        <option value="$PROJECT_DIR$/immersedialog/src/main/java/com/snail/immersedialog/BaseThemeFullScreenDialogFragment.java" />
+        <option value="$PROJECT_DIR$/immersedialog/src/main/java/com/snail/immersedialog/BaseWrapContentDialog.java" />
       </list>
     </option>
   </component>
@@ -3020,6 +3010,56 @@
             <path>
               <item name="FullScreenDialog" type="b2602c69:ProjectViewProjectNode" />
               <item name="FullScreenDialog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FullScreenDialog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FullScreenDialog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="values" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FullScreenDialog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FullScreenDialog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="values-v21" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FullScreenDialog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FullScreenDialog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FullScreenDialog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FullScreenDialog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FullScreenDialog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FullScreenDialog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="fullscreen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FullScreenDialog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FullScreenDialog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="immersedialog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -3042,6 +3082,41 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FullScreenDialog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FullScreenDialog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="immersedialog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="immersedialog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FullScreenDialog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FullScreenDialog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="immersedialog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FullScreenDialog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FullScreenDialog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="immersedialog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="values" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FullScreenDialog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FullScreenDialog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="immersedialog" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="values-v21" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FullScreenDialog" type="b2602c69:ProjectViewProjectNode" />
@@ -3178,9 +3253,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.snail.immersedialog" />
       <recent name="com.snail.fullscreen.dialog.wrapgravity" />
       <recent name="com.snail.fullscreen.dialog" />
       <recent name="com.snail.fullscreen.activity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/immersedialog/src/main/res/values" />
+      <recent name="$PROJECT_DIR$/immersedialog/src/main/res" />
+      <recent name="$PROJECT_DIR$/immersedialog/src/main/java/com/snail/immersedialog" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -3365,6 +3446,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1001" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="1.0" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -3381,7 +3463,7 @@
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29765707" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29765707" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14496036" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.124068156" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -3462,31 +3544,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/snail/fullscreen/dialog/BaseThemeFullScreenDialogFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="29" column="60" lean-forward="false" selection-start-line="29" selection-start-column="60" selection-end-line="29" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/captures/com.snail.fullscreen_2018.05.28_14.02.li" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/captures/com.snail.fullscreen_2018.05.28_14.39.li" />
-    <entry file="file://$PROJECT_DIR$/captures/com.snail.fullscreen_2018.05.28_15.21-1.li" />
-    <entry file="file://$PROJECT_DIR$/captures/com.snail.fullscreen_2018.05.28_15.21.li" />
-    <entry file="file://$PROJECT_DIR$/captures/com.snail.fullscreen_2018.05.28_15.21-2.li" />
-    <entry file="file://$PROJECT_DIR$/captures/com.snail.fullscreen_2018.05.28_15.23.li" />
-    <entry file="file://$PROJECT_DIR$/captures/com.snail.fullscreen_2018.05.28_15.11.li" />
-    <entry file="file://$PROJECT_DIR$/captures/com.snail.fullscreen_2018.05.28_15.24.li" />
-    <entry file="file://$PROJECT_DIR$/captures/com.snail.fullscreen_2018.05.28_15.24-1.li" />
     <entry file="file://$PROJECT_DIR$/captures/com.snail.fullscreen_2018.05.28_15.25.li" />
     <entry file="file://$PROJECT_DIR$/captures/com.snail.fullscreen_2018.05.28_16.05.li" />
     <entry file="file://$PROJECT_DIR$/captures/com.snail.fullscreen_2018.05.28_16.48.li" />
@@ -3628,14 +3685,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/snail/fullscreen/dialog/BaseImmerseFullScreenDialogFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="34" column="48" lean-forward="false" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/dialog_full_screen.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="763">
@@ -3651,14 +3700,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/snail/fullscreen/dialog/BaseThemeImmerseFullScreenDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -3684,9 +3725,121 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/immersedialog/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/snail/fullscreen/dialog/BaseImmerseFullScreenDialogFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="34" column="48" lean-forward="false" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/snail/fullscreen/dialog/BaseThemeImmerseFullScreenDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/snail/fullscreen/dialog/BaseThemeFullScreenDialogFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="17" column="46" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/immersedialog/src/main/res/values-v21/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/immersedialog/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/immersedialog/src/main/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/immersedialog/src/main/java/com/snail/immersedialog/BaseThemeImmerseFullScreenDialogFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/immersedialog/src/main/java/com/snail/immersedialog/ThemeFloatingAlertDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/immersedialog/src/main/java/com/snail/immersedialog/BaseThemeImmerseFullScreenDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/immersedialog/src/main/java/com/snail/immersedialog/BaseThemeFullScreenDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/immersedialog/src/main/java/com/snail/immersedialog/BaseThemeFullScreenDialogFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/immersedialog/src/main/java/com/snail/immersedialog/BaseWrapContentDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
